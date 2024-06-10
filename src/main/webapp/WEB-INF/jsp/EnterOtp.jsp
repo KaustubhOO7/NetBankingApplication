@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="/src/main/resources/static/css/EnterOtp.css" />
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/EnterOtp.css" />
   </head>
   <body>
     <div class="mainLeft">

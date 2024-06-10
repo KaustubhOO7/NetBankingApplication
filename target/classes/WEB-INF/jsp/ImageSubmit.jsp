@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="/src/main/resources/static/css/ImageSubmit.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/ImageSubmit.css">
 </head>
 <body>
 
     <div class="main">
-        <img src="/src/main/resources/static/images/background.png">
+        <img src="${pageContext.request.contextPath}/images/background.png">
         <h2>
             <b>Sirius Ventures</b>
          </h2>

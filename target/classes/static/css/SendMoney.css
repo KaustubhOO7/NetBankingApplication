@@ -200,7 +200,7 @@ a:active {
 
 .checked
 {
-    background-image: url(/src/main/resources/static/images/3814407.png);
+    background-image: url(${pageContext.request.contextPath}/images/3814407.png);
 }
 
 .usingMail p,

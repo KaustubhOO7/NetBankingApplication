@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="/src/main/resources/static/css/Transaction.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/Transaction.css">
 </head>
 <body>
     <div class="mainLeft">

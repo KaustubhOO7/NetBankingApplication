@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/src/main/resources/static/css/LoginError.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/LoginError.css">
 </head>
 <body>
    

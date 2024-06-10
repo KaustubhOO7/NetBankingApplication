@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/src/main/resources/static/css/LandingPage.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/LandingPage.css">
 </head>
 <body>
     <div class="main">
@@ -39,7 +39,7 @@
       
       
            <div class="imageContainer">
-           <img src="/src/main/resources/static/images/82.jpg">
+           <img src="${pageContext.request.contextPath}/images/82.jpg">
            <div class="textBehind">Welcome !!
            </div>
            </div>
@@ -61,13 +61,13 @@
                 Trusted by nearly 5400+ customers
             </div>
             
-            <img src="/src/main/resources/static/images/1.png" id="com1">
-          
-            <img src="/src/main/resources/static/images/2.png" id="com2">
+            <img src="${pageContext.request.contextPath}/images/1.png" id="com1">
+            
+            <img src="${pageContext.request.contextPath}/images/2.png" id="com2">
       
-            <img src="/src/main/resources/static/images/3.png" id="com3">
+            <img src="${pageContext.request.contextPath}/images/3.png" id="com3">
       
-            <img src="/src/main/resources/static/images/4.png" id="com4">
+            <img src="${pageContext.request.contextPath}/images/4.png" id="com4">
       
            </div>
       
@@ -98,7 +98,7 @@
       
          <a href="loginCheck">
          <div class="content1">
-           <img src="/src/main/resources/static/images/pl.png">
+           <img src="${pageContext.request.contextPath}/images/pl.png">
            <p>Personal Loan<br></p>
            <small>Customized rates <br> Fast approval</small>
          </div>
@@ -106,7 +106,7 @@
          
          <a href="loginCheck">
          <div class="content2">
-           <img src="/src/main/resources/static/images/bank.png">
+           <img src="${pageContext.request.contextPath}/images/bank.png">
            <p>Business Loan</p>
            <small>Fuel growth <br>Tailored financing</small>
          </div>
@@ -114,7 +114,7 @@
          
          <a href="loginCheck">
           <div class="content3">
-            <img src="/src/main/resources/static/images/loan.png">
+            <img src="${pageContext.request.contextPath}/images/loan.png">
             <p>Education Loan</p>
             <small>Fund your Education Low rates</small>
            </div>
@@ -122,7 +122,7 @@
 
    <a href="loginCheck">
       <div class="content4">
-            <img src="/src/main/resources/static/images/mob.png">
+            <img src="${pageContext.request.contextPath}/images/mob.png">
             <p>Mobile Banking</p>
             <small>Bank on the go Anytime Anywhere</small>
       </div>
@@ -130,7 +130,7 @@
 
    <a href="loginCheck">
       <div class="content5">
-            <img src="/src/main/resources/static/images/credit.png">
+            <img src="${pageContext.request.contextPath}/images/credit.png">
             <p>Credit Card</p>
             <small>Spend smarter <br> Instant access</small>
       </div>
@@ -138,7 +138,7 @@
 
    <a href="loginCheck">
       <div class="content6">
-            <img src="/src/main/resources/static/images/online.png">
+            <img src="${pageContext.request.contextPath}/images/online.png">
             <p>Online Deposit</p>
             <small>Deposit online Hassle-free</small>
       </div>

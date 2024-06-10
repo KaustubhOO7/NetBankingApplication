@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="/src/main/resources/static/css/ImageSubmitPreview.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/ImageSubmitPreview.css">
 </head>
 <body>
 
     <div class="main">
-        <img src="/src/main/resources/static/images/background.png" id="head">
+        <img src="${pageContext.request.contextPath}/images/background.png" id="head">
         <h2>
             <b>Sirius Ventures</b>
          </h2>
@@ -19,7 +19,7 @@
                 
             </div>
         <div class="imagepreview">
-            <img src="/src/main/resources/static/images/UserImages/${imageFile}">
+            <img src="${pageContext.request.contextPath}/images/UserImages/${imageFile}">
         </div>
 
     </div>

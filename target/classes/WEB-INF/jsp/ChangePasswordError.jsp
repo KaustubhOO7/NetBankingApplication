@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="/src/main/resources/static/css/ChangePasswordError.css" />
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/ChangePasswordError.css" />
   </head>
   <body>
     <div class="mainLeft">

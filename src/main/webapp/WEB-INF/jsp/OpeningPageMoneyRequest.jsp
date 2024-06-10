@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <link rel="stylesheet" href="/src/main/resources/static/css/OpeningPageMoneyRequest.css">
+   <link rel="stylesheet" href="${pageContext.request.contextPath}/css/OpeningPageMoneyRequest.css">
 </head>
 <body>
    <div class="mainLeft">
