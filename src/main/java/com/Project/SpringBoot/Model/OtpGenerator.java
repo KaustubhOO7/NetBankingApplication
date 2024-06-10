@@ -12,7 +12,7 @@ public class OtpGenerator
     {
         try
         {
-           String api = "sY0UkSrftsVOisYqaLQ00RigdqsgTrR6nmh4r02TFUJkwkzmT3TVPcjyBdNf";
+           String api = "Your API KEy";
            otp = URLEncoder.encode(otp,"UTF-8");
 
            String myUrl = "https://www.fast2sms.com/dev/bulkV2?authorization=" + api + "&message=Your One Time Password is : " + otp + ".Thank You for Choosing Our Service.&language=english&route=q&numbers=" + number;
