@@ -16,7 +16,7 @@ public class ProjectDatabase
    {
 	   try
 	   {
-		   con=DriverManager.getConnection("jdbc:mysql://localhost:3306/onlinebankapp", "root", "kaustubh"); 
+		   con=DriverManager.getConnection("jdbc:mysql://localhost:3306/onlinebankapp", "username", "password"); 
 		   s=con.createStatement();
 		   s1=con.createStatement();
 	   }
