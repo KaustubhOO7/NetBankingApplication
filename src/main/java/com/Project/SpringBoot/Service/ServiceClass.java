@@ -87,7 +87,7 @@ public class ServiceClass
 		    
 		    String name = file.getOriginalFilename();
 		    InputStream is = file.getInputStream();
-		    String uploadPath = "C:/Users/Raghav/Documents/Spring4/NetBankingWebApp/src/main/webapp/UserImages/";
+		    String uploadPath = "C:/Users/Raghav/Documents/Spring4/NetBankingWebApp/src/main/resources/static/images/UserImages/";
 			FileOutputStream output = new FileOutputStream(uploadPath+name);
 			
 			byte[] data = new byte[is.available()];

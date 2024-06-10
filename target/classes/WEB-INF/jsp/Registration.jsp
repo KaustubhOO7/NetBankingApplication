@@ -5,7 +5,7 @@
 </head>
 <body>
     <div class="main">
-        <img src="/src/main/resources/static/images/background.png">
+        <img src="${pageContext.request.contextPath}/images/background.png">
         <h2>
             <b>Sirius Ventures</b>
          </h2>

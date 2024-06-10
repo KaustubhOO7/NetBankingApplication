@@ -94,7 +94,7 @@ public class ControllerClass {
 	@GetMapping("setPassword")
 	public String getPassword(Model m) throws Exception
 	{
-		String email = (String) session.getAttribute("currentUser");
+		String email = (String) session.getAttribute("userRegistration");
 		if(serviceClass.loginCheck(email)==true)
 		{
 			String name = serviceClass.getFullName(email);
