@@ -286,8 +286,8 @@ public class ServiceClass
 			number = rs.getString("phoneNo");
 		}
 		
-//		OtpGenerator otpGenerator = new OtpGenerator();
-//		otpGenerator.sendSMS(otp, number);
+		OtpGenerator otpGenerator = new OtpGenerator();
+		otpGenerator.sendSMS(otp, number);
 		
 		sql = "insert into otp values('"+otp+"')";
 		projectDatabase.s.executeUpdate(sql);
