@@ -15,7 +15,7 @@ Welcome to our Net Banking Web Application! This application provides a convenie
 - **Backend**: Java8, SpringBoot v3
 - **Database**: MySQL
 
-  ## Use UserName - rakeshh.sharma001@gmail.com ## Password - Rakesh007
+  ## Use UserName - rakeshh.sharma001@gmail.com   Password - Rakesh007 to Login
   
 
 <label for="Landing"> <b>(1) Landing Page</b> </label>
