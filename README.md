@@ -11,7 +11,7 @@ Welcome to our Net Banking Web Application! This application provides a convenie
 
 ## Technologies Used
 
-- **Frontend**: JSP, CSS
+- **Frontend**: HTML, CSS
 - **Backend**: Java8, SpringBoot v3
 - **Database**: MySQL
 
