@@ -15,7 +15,7 @@ Welcome to our Net Banking Web Application! This application provides a convenie
 - **Backend**: Java8, SpringBoot v3
 - **Database**: MySQL
 
- View Project - https://siriusventures.onrender.com/welcome
+ View Project - http://siriusventures.ap-south-1.elasticbeanstalk.com/welcome
   ## Use UserName - rakeshh.sharma001@gmail.com   Password - Rakesh007 to Login
   
 
